@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/union_smart_technology/static/css/main.7202ca66.css",
-    "main.js": "/union_smart_technology/static/js/main.a34f67b3.js",
+    "main.css": "/union_smart_technology/static/css/main.ef8d0372.css",
+    "main.js": "/union_smart_technology/static/js/main.10866098.js",
     "static/media/career_bg_header.png": "/union_smart_technology/static/media/career_bg_header.3d1083dbc635341f239e.png",
     "static/media/CTA_blockBG.png": "/union_smart_technology/static/media/CTA_blockBG.c550c37710c4f6085809.png",
     "static/media/Inter-Medium.eot": "/union_smart_technology/static/media/Inter-Medium.bc3a3377aaae167b0a07.eot",
@@ -105,11 +105,11 @@
     "static/media/arrow.svg": "/union_smart_technology/static/media/arrow.cf0a3a363ba3e3ab58d8df700620f4c1.svg",
     "static/media/down.svg": "/union_smart_technology/static/media/down.4b5c32d8cf813df0f512b7fcc316249b.svg",
     "static/media/plus.svg": "/union_smart_technology/static/media/plus.a6411e459d65802ebd12bb988ba0f8bb.svg",
-    "main.7202ca66.css.map": "/union_smart_technology/static/css/main.7202ca66.css.map",
-    "main.a34f67b3.js.map": "/union_smart_technology/static/js/main.a34f67b3.js.map"
+    "main.ef8d0372.css.map": "/union_smart_technology/static/css/main.ef8d0372.css.map",
+    "main.10866098.js.map": "/union_smart_technology/static/js/main.10866098.js.map"
   },
   "entrypoints": [
-    "static/css/main.7202ca66.css",
-    "static/js/main.a34f67b3.js"
+    "static/css/main.ef8d0372.css",
+    "static/js/main.10866098.js"
   ]
 }
