@@ -1,0 +1,192 @@
+@import "../../../../styles/variable";
+.offers {
+  font-family: "Gotham", sans-serif;
+  color: $blue-text;
+  .offers_title {
+    padding-top: 72px;
+    font-weight: 400;
+    font-size: 1.625em;
+    line-height: 32px;
+  }
+  .offers_subtitle {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: $main-text;
+    padding: 16px 0 24px 0;
+  }
+  .offers_text {
+    color: $grey-text;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+  }
+  .offers_block {
+    padding-top: 64px;
+    img {
+      height: 80px;
+      width: 80px;
+    }
+    h3 {
+      font-weight: 325;
+      font-size: 26px;
+      line-height: 32px;
+      padding-top: 21px;
+      color: $blue-color;
+      vertical-align: bottom;
+    }
+    p {
+      font-weight: 325;
+      font-size: 18px;
+      line-height: 22px;
+      color: $grey-text;
+      vertical-align: bottom;
+    }
+  }
+  .offers_button {
+    padding: 66px 0 179px 0;
+    a {
+      font-family: "Gotham", sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      color: #a960ab;
+    }
+    span {
+      padding-left: 20px;
+    }
+    .btn-primary3 {
+      padding-left: 0;
+      padding: 10px 20px;
+      background-color: transparent;
+      color: $blue-color;
+      border: 1px solid $blue-color;
+      transition: all 0.7s ease-out;
+      // margin-left: 30px;
+    }
+
+    .btn-primary3:hover {
+      background: $blue-color;
+      color: $base-color;
+      transition: 0.8s;
+    }
+  }
+}
+//Responsive Web Design - Media Queries
+.offers {
+  @media screen and (min-width: 1920px) {
+    .container {
+      max-width: 1416px;
+    }
+  }
+}
+@media screen and (max-width: 1440px) {
+  .offers .offers_title {
+    padding-top: 3em;
+    font-size: 22px;
+  }
+  .offers .offers_subtitle {
+    font-size: 50px;
+    padding: 15px 0 0 0;
+  }
+  .offers .offers_text {
+    font-size: 1em;
+    line-height: 20px;
+  }
+  .offers .offers_block h3 {
+    font-size: 22px;
+  }
+  .offers .offers_block p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .offers .offers_button {
+    padding: 60px 0 100px 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .offers .offers_title {
+    padding-top: 26em;
+  }
+  .offers .offers_subtitle {
+    font-size: 40px;
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 720px) {
+  .offers .offers_subtitle {
+    font-size: 35px;
+  }
+  .offers .offers_title {
+    font-size: 20px;
+    padding-top: 30em;
+  }
+}
+@media screen and (max-width: 540px) {
+  .offers .offers_title {
+    padding-top: 29em;
+  }
+}
+@media screen and (max-width: 540px) {
+  .offers .offers_text {
+    font-size: 0.8em;
+  }
+  .offers .offers_block h3 {
+    font-size: 1em;
+    padding-top: 0;
+  }
+  .offers .offers_block p {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 414px) {
+  .offers .offers_title {
+    margin-top: 7em;
+    font-family: "Gotham", sans-serif;
+    font-weight: 325;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .offers .offers_subtitle {
+    line-height: 36px;
+    padding: 10px 0 10px 0;
+  }
+  .offers .offers_text {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .offers .offers_block {
+    text-align: center;
+    padding-top: 2em;
+  }
+  .offers .offers_block h3 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .offers .offers_block p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .offers .offers_button {
+    text-align: center;
+  }
+  .offers .offers_button a {
+    border: 2px solid #1e74ec;
+    color: #1e74ec;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .offers .offers_button .btn-primary3 {
+    padding: 10px 30px;
+  }
+  .offers .offers_button span {
+    display: none;
+  }
+}

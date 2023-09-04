@@ -1,0 +1,82 @@
+.contact {
+  background-image: url("img/form.bg.png");
+  background-size: cover;
+  font-family: "Gotham", sans-serif;
+  height: 564px;
+  padding-top: 190px;
+  margin-top: -100px;
+  color: #EEEFF1;
+  margin-bottom: 710px;
+}
+
+.contact_text {
+  padding-bottom: 267px;
+  font-weight: 700;
+  font-size: 3.875em;
+  line-height: 110%;
+}
+
+.contact_title {
+  padding-bottom: 20px;
+  margin-top: -30px;
+  font-weight: 325;
+  font-size: 1.625em;
+  line-height: 123%;
+}
+
+@media screen and (min-width: 1920px) {
+  .contact .container {
+    max-width: 1416px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .contact {
+    margin-bottom: 500px;
+  }
+  .contact .contact_title {
+    font-size: 24px;
+  }
+  .contact .contact_text {
+    font-size: 50px;
+    line-height: 47px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .contact {
+    height: 100%;
+    padding-top: 280px;
+    margin-bottom: 920px;
+  }
+  .contact .contact_text {
+    font-size: 40px;
+  }
+  .contact .contact_title {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .contact .contact_text {
+    font-size: 35px;
+  }
+  .contact .contact_title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .contact {
+    margin-bottom: 825px;
+  }
+  .contact .contact_title {
+    margin-top: -190px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .contact {
+    margin-bottom: 564px;
+  }
+  .contact .contact_text {
+    font-size: 30px;
+    line-height: 35px;
+  }
+}

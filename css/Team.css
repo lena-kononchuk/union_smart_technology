@@ -1,0 +1,225 @@
+.Team {
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-family: "Gotham", sans-serif;
+}
+@media screen and (min-width: 1920px) {
+  .Team .container {
+    max-width: 1416px;
+  }
+}
+.Team .Team_info {
+  padding-bottom: 160px;
+}
+.Team .Team_info p {
+  font-weight: 325;
+  padding-top: 200px;
+  font-size: 26px;
+  line-height: 32px;
+  color: #cdcfdf;
+}
+.Team .Team_info h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 58px;
+  color: #EEEFF1;
+}
+.Team .Team_info span {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #DDDDE2;
+  letter-spacing: 0.2px;
+}
+.Team .Team_about {
+  margin-right: 10px;
+}
+.Team .Team_about h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 64px;
+  color: #03115F;
+  padding-bottom: 24px;
+}
+.Team .Team_about p {
+  font-weight: 325;
+  font-size: 18px;
+  line-height: 22px;
+  color: #535670;
+}
+.Team .Team_group {
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 40px;
+}
+.Team .Team_group p {
+  padding-top: 10px;
+  margin-bottom: 5px;
+  color: #03115F;
+}
+.Team .Team_group span {
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 22px;
+}
+.Team .Team_footer {
+  background-image: url("img/CTA_blockBG.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+@media screen and (max-width: 414px) {
+  .Team .Team_footer {
+    background-image: url("img/CTA_mob.png");
+    width: 100%;
+    height: 322px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 80px;
+  }
+}
+.Team .Team_footer .footer_info {
+  padding: 150px 0 152px 0;
+  font-family: "Gotham", sans-serif;
+}
+.Team .Team_footer .footer_info p {
+  font-weight: 325;
+  font-size: 26px;
+  line-height: 32px;
+  color: #dddde2;
+}
+.Team .Team_footer .footer_info h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 68px;
+  color: #EEEFF1;
+  padding-bottom: 30px;
+}
+.Team .Team_footer .footer_button a {
+  font-size: 16px;
+  line-height: 19px;
+  padding: 16px 30px;
+}
+
+@media screen and (max-width: 1440px) {
+  .Team .Team_info span {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .Team .Team_about h2 {
+    line-height: 48px;
+    font-size: 50px;
+  }
+  .Team .Team_info p {
+    font-size: 24px;
+  }
+  .Team .Team_info h2 {
+    font-size: 50px;
+  }
+  .Team .Team_about p {
+    line-height: 20px;
+    padding-top: 15px;
+    font-size: 16px;
+  }
+  .Team .Team_footer .footer_info h3 {
+    line-height: 55px;
+    font-size: 50px;
+  }
+  .Team .Team_footer .footer_info p {
+    font-size: 24px;
+  }
+  .Team .Team_footer .footer_button a {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .Team .Team_info span {
+    font-size: 14px;
+  }
+  .Team .Team_about h2 {
+    font-size: 40px;
+    line-height: 46px;
+    padding-bottom: 15px;
+  }
+  .Team .Team_about p {
+    font-size: 14px;
+    padding: 0 0 25px 0;
+  }
+}
+@media screen and (max-width: 991px) {
+  .Team .Team_info {
+    padding-top: 210px;
+  }
+  .Team .Team_info p {
+    font-size: 20px;
+  }
+  .Team .Team_info h2 {
+    font-size: 50px;
+  }
+  .Team .Team_about h2 {
+    font-size: 40px;
+  }
+  .Team .Team_footer .footer_info {
+    margin: 0;
+    padding: 143px 0 150px 0;
+  }
+  .Team .Team_footer .footer_info p {
+    font-size: 20px;
+  }
+  .Team .Team_footer {
+    margin-bottom: 0;
+  }
+  .Team .Team_footer .footer_info h3 {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .Team .Team_info {
+    margin-bottom: 100px;
+  }
+  .Team .Team_about h2 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .Team .Team_footer .footer_info h3 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Team .Team_info span {
+    line-height: 13px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .Team .Team_footer {
+    margin-bottom: 0;
+  }
+  .Team .Team_info h2 {
+    font-size: 30px;
+  }
+  .Team .Team_about h2 {
+    font-size: 30px;
+  }
+  .Team .Team_group {
+    font-size: 14px;
+  }
+  .Team .Team_group span {
+    font-size: 12px;
+  }
+  .Team .Team_footer .footer_info p {
+    font-size: 18px;
+  }
+  .Team .Team_footer .footer_info {
+    padding: 70px 0 0 0;
+    text-align: center;
+  }
+  .Team .Team_footer .footer_info h3 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .Team .Team_footer .footer_button a {
+    font-size: 14px;
+    width: 100%;
+  }
+}

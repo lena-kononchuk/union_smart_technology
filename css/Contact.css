@@ -1,0 +1,77 @@
+.Contact {
+  position: relative;
+  font-family: "Gotham", sans-serif;
+  background-repeat: no-repeat;
+  padding-bottom: 450px;
+}
+
+.Contact .Contact_title {
+  padding-top: 130px;
+  font-weight: 325;
+  font-size: 26px;
+  line-height: 32px;
+  color: #E6E8EF;
+}
+
+.Contact .Contact_text {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 60px;
+  color: #EEEFF1;
+  padding-bottom: 247px;
+}
+
+@media screen and (min-width: 1920px) {
+  .contact .container {
+    max-width: 1416px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .Contact .Contact_title {
+    font-size: 24px;
+  }
+  .Contact .Contact_text {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .Contact .Contact_text {
+    padding-top: 20px;
+  }
+  .registrationForm .registrationForm_idea {
+    top: 547px;
+  }
+  .Contact {
+    padding-bottom: 800px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .Contact .Contact_text {
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Contact .Contact_title {
+    font-size: 22px;
+  }
+  .Contact .Contact_text {
+    font-size: 43px;
+  }
+  .Contact {
+    padding-bottom: 702px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .Contact {
+    background-position: top center;
+    padding-bottom: 645px;
+  }
+  .Contact .Contact_text {
+    font-size: 30px;
+    line-height: 37px;
+  }
+  .registrationForm .form_block {
+    padding-top: 0;
+  }
+}

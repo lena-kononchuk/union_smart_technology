@@ -1,0 +1,68 @@
+.CareerForm {
+  font-family: "Gotham", sans-serif;
+  font-weight: 350;
+  padding: 34px 124px;
+  background: #eeeff1;
+  position: absolute;
+  margin: 20px 123px;
+}
+.CareerForm .col-form-label {
+  font-family: "Gotham", sans-serif;
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 22px;
+  color: #75788d;
+  padding-bottom: 80px;
+}
+.CareerForm .col-form-label:first-line {
+  font-weight: 350;
+  font-size: 22px;
+  line-height: 32px;
+  color: #535684;
+}
+.CareerForm .form-control {
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 20px;
+  color: #75788d;
+  padding: 14px;
+  margin-bottom: 15px;
+  border: none;
+}
+.CareerForm .button1 {
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 19px;
+  color: #EEEFF1;
+  padding: 14px 20px;
+  background-color: #1E74EC;
+}
+
+@media screen and (max-width: 991px) {
+  .Career .CareerForm {
+    margin: 50px 50px;
+    padding: 64px 50px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .Career .CareerForm {
+    margin: 50px 0;
+    padding: 20px 50px;
+  }
+  .CareerForm .col-form-label {
+    padding-bottom: 30px;
+    text-align: center;
+  }
+  .Career .CareerForm .button1 {
+    width: 100%;
+    margin: 20px 0 30px 0;
+  }
+  .Career .Career_footer {
+    margin-bottom: 200px;
+  }
+}
+@media screen and (max-width: 390px) {
+  .Career .CareerForm {
+    margin: 50px -12px;
+  }
+}

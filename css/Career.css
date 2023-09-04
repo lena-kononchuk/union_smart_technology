@@ -1,0 +1,287 @@
+.Career {
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+@media screen and (min-width: 1920px) {
+  .Career .container {
+    max-width: 1416px;
+  }
+}
+.Career .Career_info {
+  font-family: "Gotham", sans-serif;
+  padding: 130px 0 158px 0;
+}
+.Career .Career_info h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  color: #EEEFF1;
+}
+.Career .Career_info p {
+  padding-top: 16px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  color: #dddde2;
+  letter-spacing: 0.2px;
+  padding-bottom: 75px;
+}
+.Career .career_description {
+  padding: 30px 0 33px 0;
+  font-family: "Gotham", sans-serif;
+}
+.Career h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 40px;
+  color: #03115F;
+  padding-bottom: 20px;
+}
+.Career p {
+  font-weight: 325;
+  font-size: 20px;
+  line-height: 23px;
+  color: #535670;
+}
+.Career .position {
+  color: #535670;
+  padding: 0 0 80px 45px;
+}
+.Career .position h4 {
+  font-size: 20px;
+  line-height: 32px;
+  font-weight: 325;
+}
+.Career .position .position_description {
+  padding: 20px 0 0 120px;
+}
+.Career .position .position_description h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #35417F;
+}
+.Career .position .position_description p {
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 20px;
+  color: #989aa9;
+}
+.Career .position .position_description ul li {
+  font-weight: 325;
+  font-size: 18px;
+  line-height: 22px;
+  list-style: outside;
+}
+.Career .button_career {
+  padding: 14px 20px;
+  background: #1e74ec;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+.Career .button_career:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.Career .button {
+  background: transparent;
+}
+.Career .button1:hover {
+  border: 1px solid #1e74ec;
+  border-radius: 3px;
+  background: transparent;
+  color: #1e74ec;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+.Career .Career_footer {
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-bottom: 180px;
+}
+.Career .Career_footerMain {
+  padding: 22px 0 387px;
+  position: relative;
+}
+.Career .Career_footerMain p {
+  color: #e6e8ef;
+  font-weight: 325;
+  font-size: 20px;
+  line-height: 32px;
+}
+.Career .Career_footerMain h3 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #EEEFF1;
+}
+.Career .Career_footerMain span {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 325;
+  color: #EEEFF1;
+}
+
+@media screen and (max-width: 1440px) {
+  .Career .career_description {
+    padding-top: 100px;
+  }
+  .Career h3 {
+    font-size: 50px;
+  }
+  .Career .Career_info h2 {
+    font-size: 50px;
+  }
+  .Career .Career_footer {
+    margin-bottom: 100px;
+  }
+  .btn-lg,
+  .btn-group-lg > .btn {
+    font-size: 18px;
+  }
+  .Career .Career_info p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .Career p {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .Career .position h4 {
+    font-size: 24px;
+  }
+  .Career .position .position_description ul li {
+    font-size: 16px;
+  }
+  .Career .Career_footerMain span {
+    line-height: 20px;
+    font-size: 16px;
+  }
+  .Career .CareerForm .form-control {
+    font-size: 14px;
+  }
+  .Career .CareerForm .button1 {
+    font-size: 14px;
+  }
+  .Career .CareerForm .col-form-label {
+    line-height: 20px;
+    font-size: 14px;
+  }
+  .Career .Career_footerMain p {
+    font-size: 24px;
+  }
+  .Career .Career_footerMain h3 {
+    font-size: 50px;
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .Career .position .position_description {
+    padding: 35px 0 0 80px;
+  }
+  .Career h3 {
+    font-size: 50px;
+  }
+  .Career .Career_footerMain h3 {
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .Career .career_description {
+    padding: 170px 0 60px 0;
+  }
+  .Career .position {
+    padding: 0 0 65px 84px;
+  }
+  .Career .position .position_description {
+    padding: 20px 0 0 50px;
+  }
+  .Career .CareerForm {
+    padding: 64px 50px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .Career .Career_footer {
+    margin-top: -134px;
+  }
+  .Career .Career_info h2 {
+    font-size: 50px;
+  }
+  .Career .Career_info p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .Career .position {
+    padding-left: 55px;
+  }
+  .Career .Career_footerMain {
+    padding-top: 220px;
+  }
+  .Career .Career_footerMain h3 {
+    line-height: 50px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .Career .Career_info {
+    padding-top: 230px;
+  }
+  .Career h3 {
+    font-size: 35px;
+    padding-bottom: 0;
+  }
+  .Career .career_description {
+    padding-top: 100px;
+  }
+  .Career p {
+    font-size: 14px;
+  }
+  .Career .position h4 {
+    font-size: 20px;
+  }
+  .Career .position .position_description ul li {
+    font-size: 14px;
+  }
+  .Career .position .position_description {
+    padding: 10px 0 0 30px;
+  }
+  .Career .Career_footerMain p {
+    font-size: 20px;
+  }
+  .Career .Career_footerMain h3 {
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Career .position {
+    padding-left: 30px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .Career .career_description {
+    padding-top: 20px;
+  }
+  .Career .position {
+    padding-bottom: 15px;
+  }
+  .Career .Career_footerMain span {
+    font-size: 14px;
+  }
+  .Career .Career_footerMain h3 {
+    line-height: 41px;
+  }
+  .Career .Career_footer {
+    margin: 0 0 147px 0;
+  }
+  .Career .Career_footerMain {
+    margin-top: 100px;
+    padding: 0 0 500px 0;
+  }
+  .Career .Career_footerMain .CareerForm {
+    margin: 50px -12px;
+    padding: 20px;
+  }
+  .Career .Career_footerMain .CareerForm form {
+    width: 100%;
+  }
+}

@@ -1,0 +1,126 @@
+.benefits {
+  font-family: "Gotham", sans-serif;
+  font-style: normal;
+  font-weight: 325;
+}
+.benefits .benefits_info {
+  padding: 70px 0 64px 0;
+}
+.benefits .benefits_title {
+  font-size: 26px;
+  line-height: 32px;
+  color: #35417F;
+  padding-bottom: 8px;
+}
+.benefits .benefits_subtitle {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 68px;
+  color: #03115F;
+  padding-bottom: 24px;
+}
+.benefits .benefits_text {
+  font-size: 20px;
+  line-height: 24px;
+}
+.benefits .benefits_main .benefits_about {
+  font-weight: 350;
+  font-size: 22px;
+  line-height: 25px;
+  color: #1E74EC;
+  padding-bottom: 20px;
+}
+.benefits .benefits_main .benefits_item {
+  font-weight: 325;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+@media screen and (max-width: 1440px) {
+  .benefits .benefits_info {
+    padding: 130px 534px 64px 0;
+  }
+  .benefits .benefits_title {
+    font-size: 22px;
+    padding-bottom: 0;
+  }
+  .benefits .benefits_subtitle {
+    font-size: 50px;
+    padding-bottom: 0;
+  }
+  .benefits .benefits_text {
+    font-size: 16px;
+  }
+  .benefits .benefits_main .benefits_about {
+    font-size: 20px;
+  }
+  .benefits .benefits_main .benefits_item {
+    font-size: 16px;
+  }
+  .benefits .benefits_main .items {
+    padding-bottom: 45px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .benefits .benefits_info {
+    padding: 130px 0 64px 0;
+  }
+  .benefits .benefits_main .items {
+    padding-bottom: 20px;
+  }
+  .benefits .benefits_main .benefits_item {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .benefits .benefits_subtitle {
+    font-size: 40px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .benefits .benefits_title {
+    font-size: 20px;
+  }
+  .benefits .benefits_subtitle {
+    font-size: 35px;
+  }
+  .benefits .benefits_main .benefits_item {
+    font-size: 14px;
+    line-height: 25px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .benefits .benefits_text {
+    font-size: 0.8em;
+  }
+  .benefits .benefits_main .benefits_about {
+    font-size: 1em;
+  }
+  .benefits .benefits_main .benefits_item {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 414px) {
+  .benefits {
+    padding-top: 0;
+  }
+  .benefits .benefits_title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .benefits .benefits_subtitle {
+    padding: 10px 0 10px 0;
+    line-height: 32px;
+  }
+  .benefits .benefits_text {
+    margin-bottom: 0;
+    line-height: 22px;
+  }
+  .benefits .benefits_main .benefits_about {
+    padding-bottom: 10px;
+  }
+  .benefits .benefits_main .benefits_item {
+    line-height: 22px;
+  }
+}

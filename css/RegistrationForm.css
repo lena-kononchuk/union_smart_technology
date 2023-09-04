@@ -1,0 +1,287 @@
+.registrationForm {
+  position: relative;
+}
+.registrationForm .registrationForm_absolute {
+  position: absolute;
+  top: -209px;
+  z-index: 22;
+  background-color: #EEEFF1;
+  padding: 110px 110px 135px 122px;
+}
+.registrationForm .registrationForm_idea {
+  background-color: #012C88;
+  padding: 64px 37px 20px 40px;
+  font-family: "Gotham", sans-serif;
+  font-weight: 325;
+  color: #DDDDE2;
+}
+.registrationForm .registrationForm_idea h4 {
+  font-size: 1.625em;
+  line-height: 32px;
+  padding-bottom: 14px;
+}
+.registrationForm .registrationForm_idea p {
+  font-size: 1em;
+  line-height: 22px;
+}
+.registrationForm .registrationForm_info {
+  padding-top: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1em;
+  line-height: 22px;
+  font-weight: 700;
+  color: #EEEFF1;
+}
+.registrationForm .registrationForm_info p a {
+  font-size: 1em;
+  line-height: 20px;
+  font-weight: 325;
+  color: #EEEFF1;
+  padding-right: 38px;
+  text-decoration: none;
+  padding-bottom: 0;
+}
+.registrationForm .social-container {
+  padding: 43px 0 35px 0;
+}
+.registrationForm .social-container a {
+  padding-right: 50px;
+}
+.registrationForm .form_block {
+  padding-left: 144px;
+  font-family: "Gotham", sans-serif;
+}
+.registrationForm .form_block h3 {
+  font-weight: 700;
+  font-size: 2.25em;
+  line-height: 42px;
+  color: #03115F;
+  padding-bottom: 20px;
+}
+.registrationForm .form_block span {
+  font-weight: 325;
+  font-size: 1.125em;
+  line-height: 22px;
+  color: #535670;
+}
+.registrationForm .form_block form {
+  padding-top: 15px;
+}
+.registrationForm .form_block form p {
+  padding-bottom: 15px;
+}
+.registrationForm .form_block form input {
+  width: 100%;
+  padding: 16px 0 16px 14px;
+  font-size: 1em;
+  line-height: 20px;
+  color: #75788D;
+  font-weight: 325;
+}
+.registrationForm .form_block form textarea {
+  padding: 16px 0 16px 14px;
+  font-weight: 325;
+  width: 100%;
+}
+.registrationForm .form_block button {
+  padding: 18px 70px;
+  font-weight: 350;
+  font-size: 1em;
+  line-height: 19px;
+  color: #EEEFF1;
+}
+.registrationForm .form_block button:hover {
+  background: transparent;
+  color: #1E74EC;
+}
+
+@media screen and (max-width: 1440px) {
+  .registrationForm .registrationForm_absolute {
+    padding: 90px 110px;
+  }
+  .registrationForm .registrationForm_idea h4 {
+    font-size: 20px;
+  }
+  .registrationForm .registrationForm_idea p {
+    font-size: 0.8em;
+    line-height: 20px;
+  }
+  .registrationForm .registrationForm_info {
+    font-size: 0.9em;
+  }
+  .registrationForm .form_block h3 {
+    font-size: 22px;
+    margin-top: -10px;
+  }
+  .registrationForm .form_block {
+    padding-left: 82px;
+  }
+  .registrationForm .form_block span {
+    font-size: 14px;
+  }
+  .registrationForm .form_block form input {
+    font-size: 0.8em;
+    line-height: 15px;
+  }
+  .registrationForm .form_block form textarea {
+    font-size: 0.8em;
+  }
+  .registrationForm .form_block button {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .registrationForm .social-container a {
+    padding-right: 39px;
+  }
+  .registrationForm .form_block h3 {
+    padding-bottom: 0;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .registrationForm .registrationForm_absolute {
+    padding: 60px 60px;
+  }
+  .registrationForm .registrationForm_info p a {
+    padding-right: 10px;
+    font-size: 0.9em;
+  }
+  .registrationForm .social-container {
+    padding: 10px 0 10px 0;
+  }
+  .registrationForm .social-container a {
+    padding-right: 20px;
+  }
+  .registrationForm .form_block {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .registrationForm_idea {
+    position: absolute;
+    top: 570px;
+    padding: 40px 0 0 16px;
+    margin: 0 0 0 -60px;
+  }
+  .registrationForm .registrationForm_info p {
+    padding-right: 100px;
+  }
+  .registrationForm .social-container a {
+    padding-right: 50px;
+  }
+  .registrationForm .form_block {
+    background-color: #EEEFF1;
+  }
+  .registrationForm .form_block h3 {
+    margin-top: -50px;
+  }
+  .registrationForm .form_block span {
+    padding-top: 10px;
+  }
+  .registrationForm .form_block form input {
+    padding: 10px 12px;
+  }
+  .registrationForm .form_block button {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .registrationForm .registrationForm_idea {
+    padding: 15px 0 15px 15px;
+  }
+  .registrationForm .registrationForm_idea h4 {
+    font-size: 1em;
+  }
+  .registrationForm .registrationForm_idea p {
+    font-size: 0.7em;
+  }
+  .registrationForm .form_block h3 {
+    font-size: 1.5em;
+  }
+  .registrationForm .form_block span {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 540px) {
+  .registrationForm .registrationForm_absolute {
+    margin: 0 -12px;
+    padding: 60px 20px 60px 0;
+  }
+  .registrationForm .registrationForm_idea {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 414px) {
+  .registrationForm .form_block h3 {
+    display: none;
+  }
+  .registrationForm .form_block {
+    padding-top: 40px;
+    margin-top: -26px;
+  }
+  .registrationForm .form_block span {
+    font-size: 12px;
+    line-height: 16px;
+    padding: 0;
+  }
+  form {
+    width: 95%;
+  }
+  .registrationForm .form_block form input {
+    padding: 8px 10px;
+    font-size: 12px;
+  }
+  .registrationForm .form_block form textarea {
+    font-size: 12px;
+  }
+  .registrationForm .form_block button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    padding: 16px 121px;
+    border-radius: 7px;
+    margin-bottom: 40px;
+  }
+  .registrationForm_idea {
+    margin: 0;
+  }
+  .registrationForm .registrationForm_idea {
+    margin-top: -71px;
+  }
+  .registrationForm .registrationForm_idea h4 {
+    font-size: 18px;
+    line-height: 22px;
+    padding-top: 40px;
+  }
+  .registrationForm .registrationForm_idea p {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .registrationForm .registrationForm_idea h4 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+  }
+  .registrationForm .registrationForm_info {
+    padding-top: 0;
+  }
+  .registrationForm .registrationForm_info p {
+    padding-right: 30px;
+  }
+  .registrationForm .registrationForm_info p a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .registrationForm .social-container a {
+    padding-right: 43px;
+  }
+}

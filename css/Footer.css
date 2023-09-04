@@ -1,0 +1,219 @@
+.footer {
+  position: relative;
+  background-color: #03115F;
+  margin-top: 50px;
+  font-family: "Gotham";
+  font-weight: 325;
+  font-size: 16px;
+  color: #f0f0f1;
+  padding: 24px 0 0 0;
+}
+.footer .footer_item h4 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 10px;
+  text-transform: uppercase;
+}
+.footer .footer_item .footer_contact p a {
+  color: #f0f0f1;
+  font-size: 16px;
+  line-height: 22px;
+  text-decoration: none;
+}
+.footer .footer_item .footer_contact :hover {
+  color: #1E74EC;
+}
+.footer .footer_navigation .nav-footer {
+  text-align: right;
+  font-weight: 325;
+}
+.footer .footer_navigation .nav-footer li {
+  font-family: "Gotham";
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #e0e1e3;
+  padding-bottom: 10px;
+}
+.footer .footer_navigation .nav-footer :hover {
+  color: #1E74EC;
+}
+.footer .footer_social {
+  text-align: right;
+}
+.footer .footer_social a {
+  display: block;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 10px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #e0e1e3;
+  padding-bottom: 7px;
+}
+.footer .footer_social img {
+  display: none;
+}
+.footer .footer_social .footer .footer_cookies a {
+  text-align: right;
+}
+@media screen and (max-width: 414px) {
+  .footer .footer_cookies {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+.footer .footer_cookies a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  color: #f0f0f1;
+  text-decoration: none;
+}
+.footer .footer_cookies :hover {
+  color: #1E74EC;
+}
+.footer .footer_about span {
+  font-family: "Gotham";
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 20px;
+  color: #f0f0f1;
+}
+
+@media screen and (min-width: 1920px) {
+  .footer .container {
+    max-width: 1416px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .footer {
+    margin-top: 0;
+  }
+  .footer .footer_item h4 {
+    font-size: 0.9em;
+  }
+  .footer .footer_item .footer_contact p a {
+    font-size: 0.9em;
+  }
+  .footer .footer_item p {
+    font-size: 0.9em;
+  }
+  .footer .footer_navigation a {
+    font-size: 0.8em;
+  }
+  .footer .footer_social a p {
+    font-size: 0.8em;
+  }
+  .footer .footer_about span {
+    font-size: 0.8em;
+  }
+  .footer .footer_cookies a {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 991px) {
+  .footer {
+    padding: 30px 0 26px 0;
+  }
+  .footer .footer_navigation .nav-footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px solid #babbc6;
+    padding-bottom: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer .footer_navigation ul {
+    padding: 10px 0 0 0;
+  }
+  .footer .footer_social {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    border-bottom: 1px solid #babbc6;
+    padding-top: 10px;
+  }
+  .footer .footer_about {
+    padding-top: 20px;
+    text-align: center;
+  }
+  .footer .footer_cookies {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 720px) {
+  .footer .footer_navigation {
+    display: block;
+    text-align: center;
+    border-bottom: none;
+  }
+  .footer .footer_navigation .nav-footer .nav-links {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 414px) {
+  .footer {
+    font-family: "Rubik", sans-serif;
+  }
+  .footer .footer_contact {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .footer .footer_item h4 {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.02em;
+  }
+  .footer .footer_item p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 0.7em;
+  }
+  .footer .footer_item .footer_contact {
+    margin-bottom: 0;
+  }
+  .footer .footer_navigation .nav-footer {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    display: block;
+  }
+  .footer .footer_social a p {
+    display: none;
+  }
+  .footer .footer_social {
+    border-bottom: none;
+  }
+  .footer .footer_social img {
+    display: block;
+    margin: 0 10px;
+  }
+  .footer .footer_about span {
+    font-size: 11px;
+    line-height: 14px;
+  }
+  .footer .footer_cookies a {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 14px;
+    color: #a960ab;
+  }
+}

@@ -1,0 +1,136 @@
+.Faq {
+  font-family: "Gotham", sans-serif;
+  font-weight: 325;
+}
+.Faq .Faq_content {
+  padding: 50px 0;
+}
+.Faq .Faq_content .Faq_title p {
+  font-size: 20px;
+  line-height: 42px;
+  color: #35417F;
+}
+.Faq .Faq_content .Faq_title h3 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  color: #03115F;
+  padding-bottom: 34px;
+}
+.Faq .Faq_content .Faq_main {
+  padding-bottom: 40px;
+}
+.Faq .Faq_content .Faq_main span {
+  font-size: 22px;
+  line-height: 32px;
+  color: #535670;
+  font-family: "Gotham", sans-serif;
+}
+.Faq .Faq_content .Faq_main p {
+  font-size: 18px;
+  line-height: 22px;
+  color: #75788d;
+  padding: 12px 0 0 84px;
+}
+.Faq .Faq_content button {
+  background-color: transparent;
+  text-align: right;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+
+@media screen and (min-width: 1920px) {
+  .Faq .container {
+    max-width: 1416px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .Faq .Faq_content .Faq_title p {
+    font-size: 22px;
+  }
+  .Faq .Faq_content .Faq_title h3 {
+    font-size: 50px;
+    line-height: 47px;
+  }
+  .Faq .Faq_content .Faq_main {
+    padding-bottom: 30px;
+  }
+  .Faq .Faq_content .Faq_main span {
+    font-size: 20px;
+    line-height: 20px;
+  }
+  .Faq .Faq_content .Faq_main p {
+    font-size: 0.9em;
+    padding-left: 80px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .Faq .Faq_content {
+    padding: 140px 0 110px 0;
+  }
+  .Faq .Faq_content .Faq_title h3 {
+    font-size: 40px;
+    padding-bottom: 40px;
+  }
+  .Faq .Faq_content .Faq_main span {
+    font-size: 18px;
+  }
+  .Faq .Faq_content .Faq_main p {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 720px) {
+  .Faq .Faq_content {
+    padding-top: 50px;
+  }
+  .Faq .Faq_content .Faq_title p {
+    font-size: 20px;
+  }
+  .Faq .Faq_content .Faq_title h3 {
+    font-size: 35px;
+  }
+  .Faq .Faq_content .Faq_main span {
+    font-size: 1em;
+  }
+  .Faq .Faq_content .Faq_main p {
+    font-size: 0.8em;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Faq .Faq_content .Faq_title h3 {
+    line-height: 40px;
+  }
+  .Faq .Faq_content .Faq_main p {
+    padding-left: 20px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .Faq {
+    padding-top: 100px;
+  }
+  .Faq .Faq_content .Faq_title p {
+    font-weight: 325;
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .Faq .Faq_content .Faq_title h3 {
+    line-height: 32px;
+    padding-bottom: 34px;
+  }
+  .Faq .Faq_content .Faq_main span {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .Faq .Faq_content .Faq_main p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .Faq .Faq_content button {
+    width: 16px;
+    height: 16px;
+  }
+}

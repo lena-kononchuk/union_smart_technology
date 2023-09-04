@@ -1,0 +1,495 @@
+.Services {
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-family: "Gotham", serif;
+}
+@media screen and (min-width: 1920px) {
+  .Services .container {
+    max-width: 1416px;
+  }
+}
+.Services .Services_info {
+  padding: 130px 0 70px 0;
+}
+.Services .Services_info p {
+  font-weight: 325;
+  font-size: 26px;
+  line-height: 32px;
+  color: #cdcfdf;
+}
+.Services .Services_info h2 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 58px;
+  color: #EEEFF1;
+}
+.Services .Services_info span {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+  color: #dddde2;
+}
+.Services .Services_info .Services_button {
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 19px;
+  margin-top: 46px;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
+.Services .Services_info .Services_button a {
+  color: #EEEFF1;
+  padding: 14px 20px;
+  background: #1e74ec;
+}
+.Services .Services_info .Services_button a:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.Services .Services_cooperation {
+  padding: 33px 0 24px 0;
+}
+.Services .Services_cooperation p {
+  font-weight: 325;
+  font-size: 26px;
+  line-height: 32px;
+  color: #35417F;
+  padding-top: 20px;
+}
+.Services .Services_cooperation h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #03115F;
+}
+.Services .Services_carousel {
+  cursor: pointer;
+}
+.Services .Services_carousel .card-block {
+  padding: 15px 65px 0 0;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+.Services .Services_carousel .card-block h5 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1E74EC;
+  text-transform: uppercase;
+}
+.Services .Services_carousel .card-block span {
+  font-weight: 325;
+  font-size: 16px;
+  line-height: 22px;
+  color: #535670;
+}
+.Services .Services_carousel .react-multiple-carousel__arrow {
+  top: 150px;
+}
+.Services .Services_carousel .react-multiple-carousel__arrow--right {
+  right: calc(4% - 35px);
+}
+.Services .Services_carousel .react-multiple-carousel__arrow--left {
+  left: calc(4% - 35px);
+}
+.Services .Services_items {
+  cursor: pointer;
+}
+.Services .Services_items .Services_full {
+  padding: 30px 0 30px 0;
+}
+.Services .Services_items .Services_full span {
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  color: #35417F;
+}
+.Services .Services_items .Services_full h2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 68px;
+  color: #03115F;
+}
+.Services .Services_items .Services_fullItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-align: center;
+  padding-bottom: 80px;
+}
+.Services .Services_items .Services_fullItem .content-block img {
+  padding-bottom: 20px;
+}
+.Services .Services_items .Services_fullItem .content-block h5 {
+  font-size: 16px;
+  line-height: 24px;
+  color: #1e74ec;
+}
+.Services .Services_items .Services_fullItem .content-block:nth-child(3) {
+  margin-bottom: -13px;
+}
+.Services .services_pages {
+  margin: 30px 0 40px 30px;
+}
+.Services .services_pages h5 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 43px;
+  color: #1E74EC;
+}
+.Services .services_pages p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #535670;
+}
+.Services .services_pages div {
+  color: #75788d;
+  padding: 0px 0 20px 0;
+}
+.Services .services__additional-info {
+  padding-bottom: 130px;
+  background: #e6e8ef;
+}
+.Services .services__additional-info h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 38px;
+  color: #03115F;
+  padding: 20px 0 64px 0;
+}
+.Services .services__additional-info .services_additional {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+.Services .services__additional-info .additional_block {
+  margin: 0 20px 30px 0;
+  background: white;
+}
+.Services .services__additional-info .additional_block img {
+  padding: 67px 40px;
+  background: linear-gradient(130.67deg, #1e74ec 6.5%, #002984 100%);
+  cursor: pointer;
+}
+.Services .services__additional-info .additional_block h5 {
+  display: inline-block;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+  color: #35417F;
+  padding-left: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .Services .Services_info p {
+    font-size: 24px;
+  }
+  .Services .Services_info h2 {
+    font-size: 50px;
+  }
+  .Services .Services_items {
+    margin-top: 90px;
+  }
+  .Services .Services_carousel ul li.react-multi-carousel-item {
+    padding: 0 10px 0 10px;
+  }
+  .Services .Services_carousel .card-block span {
+    font-size: 14px;
+  }
+  .Services .services__additional-info .services_additional .additional_block h5 {
+    font-size: 16px;
+  }
+  .Services .services__additional-info {
+    margin-bottom: -50px;
+  }
+  .Services .Services_info span {
+    line-height: 22px;
+    font-size: 16px;
+  }
+  .Services .services_pages {
+    margin: 100px 0 90px 100px;
+  }
+  .Services .services_pages p {
+    line-height: 24px;
+    font-size: 18px;
+  }
+  .Services .services_pages h5 {
+    font-size: 50px;
+  }
+  .Services .services_pages div {
+    font-size: 14px;
+  }
+  .Services .Services_cooperation {
+    padding-top: 110px;
+  }
+  .Services .Services_cooperation p {
+    font-size: 22px;
+  }
+  .Services .Services_cooperation h2 {
+    font-size: 50px;
+  }
+  .Services .Services_items .Services_full span {
+    font-size: 22px;
+  }
+  .Services .Services_items .Services_full h2 {
+    font-size: 50px;
+  }
+  .Services .services__additional-info h2 {
+    padding-top: 80px;
+    font-size: 50px;
+  }
+}
+@media screen and (max-width: 1320px) {
+  .Services .Services_info span {
+    font-size: 16px;
+  }
+  .Services .Services_cooperation h2 {
+    font-size: 50px;
+  }
+  .Services .Services_items .Services_full h2 {
+    font-size: 50px;
+  }
+  .Services .services__additional-info h2 {
+    font-size: 50px;
+  }
+  .Services .Services_carousel .react-multiple-carousel__arrow {
+    top: 100px;
+  }
+}
+@media screen and (max-width: 1140px) {
+  .Services .Services_info span {
+    font-size: 14px;
+  }
+  .Services .Services_cooperation {
+    padding: 107px 0 64px 0;
+  }
+  .Services .Services_cooperation h2 {
+    line-height: 52px;
+  }
+  .Services .Services_carousel .card-block h5 {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  .Services .Services_carousel .react-multiple-carousel__arrow {
+    top: 75px;
+  }
+  .Services .Services_carousel .react-multiple-carousel__arrow--right {
+    right: calc(4% - 25px);
+  }
+  .Services .Services_carousel .react-multiple-carousel__arrow--left {
+    left: calc(4% - 25px);
+  }
+  .Services .services_pages h5 {
+    font-size: 50px;
+  }
+  .Services .services_pages p {
+    font-size: 20px;
+    line-height: 26px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .Services .Services_cooperation h2 {
+    font-size: 40px;
+  }
+  .Services .Services_info {
+    padding-top: 210px;
+  }
+  .content-block h5 {
+    font-size: 16px;
+    padding-right: 16px;
+  }
+  .Services .Services_items .Services_full h2 {
+    font-size: 40px;
+  }
+  .Services .Services_items .Services_fullItem {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .content-block {
+    margin-bottom: 30px;
+  }
+  .Services .services_pages {
+    margin-left: 0;
+  }
+  .Services .services_pages h5 {
+    font-size: 40px;
+  }
+  .Services .services_pages p {
+    font-size: 18px;
+  }
+  .Services .services__additional-info h2 {
+    font-size: 40px;
+  }
+  .Services .services__additional-info .services_additional .additional_block img {
+    padding: 38px 24px;
+  }
+  .Services .services__additional-info .services_additional .additional_block {
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .Services .Services_info p {
+    font-size: 20px;
+  }
+  .Services .Services_info h2 {
+    font-size: 50px;
+  }
+  .Services .Services_info .Services_button a {
+    font-size: 14px;
+  }
+  .Services .Services_cooperation p {
+    font-size: 20px;
+  }
+  .Services .Services_cooperation h2 {
+    font-size: 35px;
+    line-height: 37px;
+  }
+  .Services .Services_carousel .card-block span {
+    font-size: 12px;
+  }
+  .Services .Services_items .Services_full {
+    padding-top: 65px;
+  }
+  .Services .Services_items .Services_full span {
+    font-size: 20px;
+  }
+  .Services .Services_items .Services_full h2 {
+    font-size: 35px;
+  }
+  .Services .services_pages {
+    margin-top: 80px;
+  }
+  .Services .services_pages h5 {
+    font-size: 35px;
+  }
+  .Services .services_pages p {
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .Services .services__additional-info h2 {
+    font-size: 35px;
+  }
+  .Services .services__additional-info .services_additional .additional_block img {
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+  .Services .services__additional-info .services_additional .additional_block h5 {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .Services .services__additional-info .services_additional .additional_block h5 {
+    font-size: 14px;
+  }
+  .Services .Services_info span {
+    line-height: 13px;
+  }
+  .Services .Services_info .Services_button a {
+    padding: 10px 16px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .Services .Services_info p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .Services .Services_info h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .Services .Services_info span {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .Services .Services_info .Services_button a {
+    font-size: 14px;
+    width: 100%;
+  }
+  .Services .Services_cooperation {
+    padding: 70px 0 24px 0;
+  }
+  .Services .Services_cooperation p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .Services .Services_cooperation h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .Services .Services_carousel ul li.react-multi-carousel-item {
+    margin-left: 0;
+    padding: 0 3px 0 4px;
+  }
+  .Services .Services_carousel .card-block h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .Services .Services_carousel .card-block span {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .Services .Services_items .Services_full {
+    padding: 80px 0 50px 0;
+    text-align: center;
+  }
+  .Services .Services_items .Services_full span {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .Services .Services_items .Services_full h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+  .Services .Services_items .Services_fullItem {
+    padding-bottom: 40px;
+  }
+  .Services .services_pages h5 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+  .Services .services_pages {
+    margin: 50px 0 60px 0;
+  }
+  .Services .services_pages p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .Services .services_pages div {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .Services .services_pages img {
+    border-radius: 30%;
+  }
+  .Services .services__additional-info h2 {
+    font-size: 30px;
+    line-height: 32px;
+    padding: 80px 0 24px 0;
+  }
+  .Services .services__additional-info .services_additional .additional_block img {
+    display: none;
+  }
+  .Services .services__additional-info .services_additional .additional_block {
+    background: transparent;
+    margin: 0;
+  }
+  .Services .services__additional-info .services_additional .additional_block:before {
+    content: url("img/bullit.png");
+    margin-bottom: 18px;
+  }
+  .Services .services__additional-info .services_additional .additional_block h5 {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
