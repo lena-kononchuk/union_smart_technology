@@ -1,7 +1,7 @@
 {
   "name": "union_smart_technology",
   "version": "0.1.0",
-  "homepage": "git@github.com:HakunaMatata91/union_smart_technology.git",
+  "homepage": "https://hakunamatata91.github.io/union_smart_technology/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
@@ -31,7 +31,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -b master -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +53,6 @@
   },
   "devDependencies": {
     "create-react-component-folder": "^0.3.7",
-    "gh-pages": "^6.0.0"
+    "gh-pages": "^2.1.1"
   }
 }
