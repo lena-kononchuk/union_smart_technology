@@ -1,6 +1,9 @@
 @import "../../../styles/variable";
 
 .Services {
+  background-size: auto 15%;
+  background-position: center center;
+  background-repeat: no-repeat;
   @media screen and (min-width: 1920px) {
     .container {
       max-width: 1416px;
@@ -11,7 +14,7 @@
   font-family: "Gotham", serif;
 
   .Services_info {
-    padding: 130px 0 70px 0;
+    padding: 200px 0 70px 0;
     p {
       font-weight: 325;
       font-size: 26px;

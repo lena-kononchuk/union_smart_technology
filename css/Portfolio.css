@@ -1,15 +1,16 @@
 .Portfolio {
   font-family: "Gotham", serif;
   background-repeat: no-repeat;
+  background-size: auto 25%;
 }
 .Portfolio .Portfolio_main {
-  padding: 130px 0 164px 0;
+  padding: 200px 0 164px 0;
 }
 .Portfolio .Portfolio_main h2 {
   font-weight: 700;
   font-size: 62px;
   line-height: 68px;
-  color: #E6E8EF;
+  color: #e6e8ef;
   padding-bottom: 15px;
 }
 .Portfolio .Portfolio_main p {
@@ -17,27 +18,34 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 28px;
-  color: #DDDDE2;
+  color: #dddde2;
   padding-bottom: 78px;
 }
+.Portfolio .Portfolio_main .Portfolio_button {
+  padding: 14px 20px;
+  background-color: #1E74EC;
+  color: #EEEFF1;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
+}
 .Portfolio .Portfolio_main .Portfolio_button:hover {
-  background: #EEEFF1;
-  color: #1E74EC;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .Portfolio .Portfolio_page {
-  padding: 130px 0 150px 0;
+  padding: 30px 0 150px 0;
 }
 .Portfolio .Portfolio_group {
   padding-bottom: 40px;
+  cursor: pointer;
 }
 .Portfolio .Portfolio_group h5 {
   padding: 20px 0 0 0;
   font-weight: 500;
   font-size: 22px;
   line-height: 32px;
-  color: #35417F;
+  color: #35417f;
 }
 .Portfolio .Portfolio_group p {
   font-weight: 400;
@@ -55,25 +63,28 @@
 }
 .Portfolio .Portfolio_footer p {
   font-weight: 350;
-  font-size: 26px;
-  line-height: 32px;
-  color: #DDDDE2;
+  font-size: 20px;
+  line-height: 22px;
+  color: #dddde2;
 }
 .Portfolio .Portfolio_footer h2 {
   font-weight: 700;
-  font-size: 62px;
-  line-height: 68px;
-  color: #E6E8EF;
+  font-size: 40px;
+  line-height: 48px;
+  color: #e6e8ef;
   padding-bottom: 24px;
 }
 .Portfolio .Portfolio_footer .button_footer {
-  padding: 10px 40px;
+  padding: 14px 20px;
+  background-color: #1E74EC;
+  color: #EEEFF1;
+  margin-bottom: 30px;
+  -webkit-transition: all 0.7s ease-out;
+  transition: all 0.7s ease-out;
 }
 .Portfolio .Portfolio_footer .button_footer:hover {
-  background: #EEEFF1;
-  color: #1E74EC;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+          box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 .Portfolio .Portfolio_footer-main {
   padding-bottom: 205px;

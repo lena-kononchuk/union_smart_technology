@@ -1,4 +1,7 @@
 .Team {
+  background-size: auto 35%;
+  background-position: center;
+  background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: center top;
   font-family: "Gotham", sans-serif;
@@ -9,7 +12,7 @@
   }
 }
 .Team .Team_info {
-  padding-bottom: 160px;
+  padding-bottom: 280px;
 }
 .Team .Team_info p {
   font-weight: 325;

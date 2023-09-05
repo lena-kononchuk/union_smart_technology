@@ -1,4 +1,7 @@
 .Services {
+  background-size: auto 15%;
+  background-position: center center;
+  background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-position: center top;
   font-family: "Gotham", serif;
@@ -9,7 +12,7 @@
   }
 }
 .Services .Services_info {
-  padding: 130px 0 70px 0;
+  padding: 200px 0 70px 0;
 }
 .Services .Services_info p {
   font-weight: 325;

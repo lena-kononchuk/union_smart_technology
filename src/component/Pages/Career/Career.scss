@@ -1,5 +1,8 @@
 @import "../../../styles/variable";
 .Career {
+  background-size: auto 37%;
+  background-position: center;
+  background-repeat: no-repeat;
   @media screen and (min-width: 1920px) {
     .container {
       max-width: 1416px;
@@ -9,7 +12,7 @@
   background-position: center top;
   .Career_info {
     font-family: "Gotham", sans-serif;
-    padding: 130px 0 158px 0;
+    padding: 200px 0 158px 0;
     h2 {
       font-weight: 700;
       font-size: 50px;
@@ -135,7 +138,7 @@
     font-size: 50px;
   }
   .Career .Career_footer {
-    margin-bottom: 100px;
+    // margin-bottom: 10px;
   }
   .btn-lg,
   .btn-group-lg > .btn {
@@ -204,7 +207,7 @@
 }
 @media screen and (max-width: 991px) {
   .Career .Career_footer {
-    margin-top: -134px;
+    // margin-top: -134px;
   }
   .Career .Career_info h2 {
     font-size: 50px;
@@ -220,7 +223,7 @@
     padding-left: 55px;
   }
   .Career .Career_footerMain {
-    padding-top: 220px;
+    // padding-top: 220px;
   }
   .Career .Career_footerMain h3 {
     line-height: 50px;
