@@ -1,7 +1,7 @@
 {
   "name": "union_smart_technology",
   "version": "0.1.0",
-  "homepage": "https://hakunamatata91.github.io/union_smart_technology/",
+  "homepage": "git@github.com:HakunaMatata91/union_smart_technology.git",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
